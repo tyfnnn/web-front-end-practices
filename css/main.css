@@ -1,13 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #2B2B2B;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #E6E6DD;
+}
+
+a {
+    color: #DB4A2B;
+    transition: all 0.2s ease-in;
+}
+
+a:hover{
+    color: #E6E6DD;
+    transition: all 0.4s ease-out;
 }
 
 header {
-    background-color: #3498db;
     color: white;
     text-align: center;
     padding: 20px;
@@ -31,18 +40,14 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #3498db;
     font-size: 20px;
 }
 
-ul li a:hover {
-    color: #2980b9;
-}
+
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #3498db;
     color: white;
     position: fixed;
     width: 100%;
