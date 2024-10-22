@@ -3,7 +3,7 @@ body {
     background-color: #2B2B2B;
     margin: 0;
     padding: 0;
-    color: #E6E6DD;
+    color: #333;
 }
 
 a {
@@ -22,34 +22,29 @@ header {
     padding: 20px;
 }
 
-.projects-list {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 5px;
+
+
+.content {
+    background-color: #E6E6DD;
     text-align: center;
+    padding: 50px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.animated-box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
 }
 
-ul li {
-    margin: 10px 0;
+.animated-box:hover {
+    transform: rotate(45deg);
 }
-
-ul li a {
-    text-decoration: none;
-    font-size: 20px;
-}
-
-
 
 footer {
     text-align: center;
     padding: 20px;
     color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    style
 }
